@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+/*情報入力用テーブル*/
+table.vertical-list-table {
+	width: 90%;
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: left;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+table.vertical-list-table th {
+	width: 25%;
+	padding: 10px;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background-color: #4651FB;
+	color:#ffffff;
+}
+
+table.vertical-list-table td {
+	width: 75%;
+	padding: 10px;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+table.vertical-list-table, th, td {
+	margin : 3%;
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	line-height: 1.5;
+}
+
+/* テーブル内テキストボックス（ログイン時）*/
+.txt-login {
+	width: 80%;
+	border: 0.7px solid #eaebed;
+	border-top:  2px solid #ccc;
+	border-left:  2px solid #ccc;
+	background-color: #fff7c5;
+	font-size:2vw;
+}
+
+/* テーブル内テキストボックス（ログイン画面以外）*/
+.txt {
+	width: 99%;
+	border: 0.5px solid #ccc;
+	font-size: 1.4rem;
+}
+
+/*ログイン画面 ユーザID保存チェックボックス*/
+.checkbox-login {
+	margin-top: -2%;
+	margin-left: 3%;
+	text-align: left;
+	font-size: 1vw;
+	font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+
+table.not_form_table_list,th,td{
+	margin : 3%;
+	width : 90%;
+	border-collapse: collapse;
+	border: 2px solid #c0c0c0;
+	line-height: 1.5;
+}
+table.not_form_table_list th {
+	width: 130px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-align: center;
+	vertical-align: midle;
+	background: #4651FB;
+	color: white;
+}
+
+table.not_form_table_list td {
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
